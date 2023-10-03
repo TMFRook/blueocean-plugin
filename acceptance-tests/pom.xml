@@ -12,7 +12,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <phantomjs.binary.path>./target/phantomjs-maven-plugin/phantomjs-2.1.1-linux-x86_64/bin/phantomjs</phantomjs.binary.path>
         <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-        <slf4j.version>1.7.32</slf4j.version>
+        <slf4j.version>1.7.34</slf4j.version>
         <selenium.version>3.141.59</selenium.version> <!-- 3.141.59 4.0.0-alpha-6 -->
     </properties>
 
@@ -129,7 +129,7 @@
         <dependency>
             <groupId>com.github.eirslett</groupId>
             <artifactId>frontend-plugin-core</artifactId>
-            <version>1.0</version>
+            <version>1.11.0</version>
         </dependency>
         <!--Needed to preempt wiremock from loading older version and breaking, that breaking serialization -->
         <dependency>
