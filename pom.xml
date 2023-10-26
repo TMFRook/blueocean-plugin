@@ -6,7 +6,7 @@
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
     <version>4.25</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <groupId>io.jenkins.blueocean</groupId>
@@ -525,7 +525,7 @@
         <dependency>
             <groupId>org.bitbucket.b_c</groupId>
             <artifactId>jose4j</artifactId>
-            <version>0.7.7</version>
+            <version>0.9.3</version>
         </dependency>
         <dependency>
             <groupId>org.jvnet.hudson.plugins</groupId>
