@@ -5,7 +5,9 @@
   "scripts": {
     "bundle:watch": "jjsbuilder --tasks bundle:watch",
     "mvnbuild": "jjsbuilder --tasks bundle",
-    "mvntest": "jjsbuilder --tasks test"
+    "mvntest": "jjsbuilder --tasks test",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "Keith Zantow <kzantow@gmail.com> (https://github.com/kzantow)",
   "license": "MIT",
@@ -20,7 +22,7 @@
     "bluebird": "^3.5.1"
   },
   "dependencies": {
-    "@jenkins-cd/blueocean-core-js": "0.0.171",
+    "@jenkins-cd/blueocean-core-js": "1.10.2",
     "@jenkins-cd/design-language": "0.0.162",
     "@jenkins-cd/js-extensions": "0.0.44",
     "@jenkins-cd/js-modules": "0.0.10",
@@ -28,7 +30,8 @@
     "mobx-react": "3.5.7",
     "react": "15.4.2",
     "react-dom": "15.4.2",
-    "react-router": "2.3.0"
+    "react-router": "2.3.0",
+    "@snyk/protect": "latest"
   },
   "jenkinscd": {
     "import": [
@@ -40,5 +43,6 @@
       "react-dom@any",
       "react-router@any"
     ]
-  }
+  },
+  "snyk": true
 }
