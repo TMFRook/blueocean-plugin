@@ -94,7 +94,7 @@
         <dependency>
             <groupId>org.kohsuke</groupId>
             <artifactId>github-api</artifactId>
-            <version>1.85</version>
+            <version>1.99</version>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
@@ -140,7 +140,7 @@
         <dependency>
             <groupId>com.github.tomakehurst</groupId>
             <artifactId>wiremock</artifactId>
-            <version>2.7.1</version>
+            <version>3.0.0</version>
         </dependency>
         <!-- end wiremock -->
         <dependency>
