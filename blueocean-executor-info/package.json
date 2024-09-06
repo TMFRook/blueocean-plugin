@@ -21,14 +21,14 @@
   },
   "dependencies": {
     "@jenkins-cd/blueocean-core-js": "0.0.171",
-    "@jenkins-cd/design-language": "0.0.162",
+    "@jenkins-cd/design-language": "0.0.666",
     "@jenkins-cd/js-extensions": "0.0.44",
     "@jenkins-cd/js-modules": "0.0.10",
     "lodash.throttle": "^4.1.1",
     "mobx": "2.6.0",
     "mobx-react": "3.5.7",
-    "react": "15.4.2",
-    "react-dom": "15.4.2",
+    "react": "16.5.0",
+    "react-dom": "16.5.0",
     "react-router": "2.3.0"
   },
   "jenkinscd": {
