@@ -5,7 +5,9 @@
   "scripts": {
     "bundle:watch": "jjsbuilder --tasks bundle:watch",
     "mvnbuild": "jjsbuilder --tasks bundle",
-    "mvntest": "jjsbuilder --tasks test"
+    "mvntest": "jjsbuilder --tasks test",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "Keith Zantow <kzantow@gmail.com> (https://github.com/kzantow)",
   "license": "MIT",
@@ -28,7 +30,8 @@
     "mobx-react": "3.5.7",
     "react": "15.4.2",
     "react-dom": "15.4.2",
-    "react-router": "2.3.0"
+    "react-router": "2.3.0",
+    "@snyk/protect": "latest"
   },
   "jenkinscd": {
     "import": [
@@ -40,5 +43,6 @@
       "react-dom@any",
       "react-router@any"
     ]
-  }
+  },
+  "snyk": true
 }
